@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="theGame()">Chance</button>
+    <script>
+
+        
+        function theGame(){
+            const theNumber = Math.floor(Math.random() * 5);
+            const guesserNumber = Math.floor(Math.random() * 5);
+            if(theNumber === guesserNumber)
+            alert('You Lose')
+            else
+            alert('You survive for now')
+      console.log(theNumber, guesserNumber)
+        }
+
+
+
+    </script>
+</body>
+</html>
